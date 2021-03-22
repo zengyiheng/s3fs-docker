@@ -1,7 +1,7 @@
-FROM ubuntu:16.04
+FROM ubuntu:20.04
 MAINTAINER Xueshan Feng <xueshan.feng@gmail.com>
 
-ENV VERSION 1.83
+ENV VERSION 1.89
 
 RUN apt-get update -qq
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y \
